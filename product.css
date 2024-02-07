@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding:0;
+  }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color:darkred;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 50px 150px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:rgb(228, 122, 90);
+    color: black;
+    font-size: 2rem;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+      background-color:pink;
+      color: black;
+      font-size: 2rem;
+  }
+
+  body {
+    background-color:pink;
+}
+
+#bbodylotion h1{
+  font-size: 2rem;
+}
+
+.lotion {
+  height: 420px;
+  width: 380px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 450px;
+  width:400px;
+  margin: 10px;
+}
+
+
+.nivea{
+  position: absolute; /* Position the background text */
+  bottom: 2%; /* At the bottom. Use top:0 to append it to the top */
+  top: 121%;
+  background: rgba(0,0,0, 0.5); /* Black background with 0.5 opacity */
+  color: #0c0b0b; /* Grey text */
+  width: 360px; /* Full width */
+  padding: 10px; /* Some padding */
+  height: 15%;
+  font-size: 2rem;
+  color:whitesmoke;
+
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0,0,0, 0.5); /* Black background with 0.5 opacity */
+  color: #0c0b0b; /* Grey text */
+  width: 280px; /* Full width */
+  padding: 50px; /* Some padding */
+  height: 10%;
+  font-size: 2rem;
+  bottom: 21%;
+  color:whitesmoke;
+}
+
+
+
+  .cleaning {
+    font-size: 3rem;
+  }
